@@ -249,10 +249,7 @@ button {
      width: 280px;
 }
 
-/* no scroll bar */
-body::-webkit-scrollbar {
-     display: none;
- }
+
 
 /*-- header area --*/
 
