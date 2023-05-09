@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de05a820-9db8-4c5b-8d5c-1d998c97d87e" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/Changeable.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -12,6 +13,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,7 +37,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/Website&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/moonm/crud_test&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -53,6 +61,8 @@
       <workItem from="1682943996290" duration="3661000" />
       <workItem from="1683468351645" duration="2460000" />
       <workItem from="1683481904778" duration="3040000" />
+      <workItem from="1683583839235" duration="728000" />
+      <workItem from="1683653751729" duration="2629000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1682436078148</created>
