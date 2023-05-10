@@ -27,6 +27,16 @@ let dm = 8;
 // The /17
 let slash = "/17";
 
+
+
+
+        // Math, DO NOT TOUCH
+
+// PDF
+let faq = "<a href=\"\n" +
+                                        pdf +
+    "                                  \" class=\"text-center\" target=\"_blank\"><img class=\"img-fluid border border-danger\" src=\"images/info.png\"></a>"
+
 // Total
 let total = brawn + scout + brain + light + voice + chaos;
 
