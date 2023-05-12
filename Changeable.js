@@ -35,10 +35,10 @@ let slash = "/17";
 // PDF
 let faq = "<a href=\"\n" +
                                         pdf +
-    "                                  \" class=\"text-center\" target=\"_blank\"><img class=\"img-fluid border border-danger\" src=\"images/info.png\"></a>"
+    "\" class=\"text-center\" target=\"_blank\"><img class=\"img-fluid border border-danger\" src=\"images/info.png\"></a>";
 
 // Total
 let total = brawn + scout + brain + light + voice + chaos;
 
-
-
+// Sentence with total
+let sumary = "For the Marathon to be Greenlit We need 9/17 Dungeon Masters and 45/102 players <br><br> We have currently: " + dm + "/17 DMs and " + total + "/102 Players";

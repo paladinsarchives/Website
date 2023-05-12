@@ -35,8 +35,6 @@
 <!--       Document to allow Paladin to easily change things-->
        <script type="text/javascript" src="Changeable.js"></script>
    </head>
-<!--Database for the team section-->
-
 
    <!-- body -->
    <body class="main-layout" style="background-color: lightpink">
@@ -55,51 +53,33 @@
       <!-- header -->
       <header class="header">
          <!-- header inner -->
-
                   <!-- Nav bar -->
-<!--                  <div class="col-xl-2"></div>-->
-<!--                <div class="row">-->
-<!--                    <div class="col-4"></div>-->
-<!--                    <div class="col-8">-->
-                     <nav class="navbar navbar-expand-lg justify-content-center">
-
-                                <a class="navbar-brand text-warning" href="index.html"><img src="images/wax.png" class="img-fluid" alt="#" style="width: 40%; float: right"/></a>
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
-                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size: 24px;">
-                                        <li class="nav-item">
-                                            <a href="index.html" class="nav-link text-warning">HOME</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#about" class="nav-link text-warning">ABOUT</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#team" class="nav-link text-warning">THE TEAM</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#schedule" class="nav-link text-warning">SCHEDULE</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#recruiting" class="nav-link text-warning">SIGN UP</a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-<!--                            <div class="col-4 ">-->
-<!--                               -->
-<!--                            </div>-->
-<!--                             <div class="col-sm-8">-->
-<!--                                -->
-<!--                             </div>-->
-                  </nav>
-<!--            </div>-->
-<!--         </div>-->
-<!--               <div class="col-2"></div>-->
-
+          <nav class="navbar navbar-expand-lg justify-content-center">
+              <a class="navbar-brand text-warning" href="index.html"><img src="images/wax.png" class="img-fluid" alt="#" style="width: 40%; float: right"/></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size: 24px;">
+                      <li class="nav-item">
+                          <a href="index.html" class="nav-link text-warning">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#about" class="nav-link text-warning">ABOUT</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#team" class="nav-link text-warning">THE TEAM</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#schedule" class="nav-link text-warning">SCHEDULE</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#recruiting" class="nav-link text-warning">SIGN UP</a>
+                      </li>
+                  </ul>
+              </div>
+          </nav>
       </header>
-
       <!-- end header -->
       <!-- banner -->
       <section class="banner_main">
@@ -135,10 +115,8 @@
       <!-- about section -->
       <div class="row" style="; width: 100%">
           <div class="col-md text-center">
-
               <img src="images/websitepic.png" class="img-fluid w-100">
           </div>
-
               <div class="col-md-8">
                   <div id="about" class="about" style="background-color: lightpink">
                       <div class="container">
@@ -150,22 +128,18 @@
                                       <h3> <b style="font-size: 19px">17 DMs, 102 players, 31 days, one campaign, one session, one world record break (again).</b></h3>
                                       <p><b style="font-size: 18px">Hails and well met! Paladin's Archives is planning along with our team on running the longest session
                                           ever in history doing Rappan Athuk
-                                              from July 1st 8AM CST to August 1st at 8AM.</b></p>
+                                          from July 1st 8AM CST to August 1st at 8AM.</b></p>
                                   </div>
                               </div>
-                              <div class="col-xl-4" id="pdf">
-                              </div>
+                              <div class="col-xl-4" id="pdf"></div>
                               <script>
                                   document.getElementById("pdf").innerHTML = faq;
                               </script>
-
-
-
-
                           </div>
                       </div>
 
     <!--                Event countdown-->
+
                       <div id="countdown" class="countdown">
                           <div class="container">
                               <h2>Countdown to the Event</h2>
@@ -184,10 +158,8 @@
                               </div>
                           </div>
                       </div>
-
                   </div>
               </div>
-
       </div>
 
       <!-- Our  team section -->
@@ -204,7 +176,7 @@
             </div>
             <div class="row">
 
-<!--                Takes the team members from the database and displayes them as cards-->
+<!--                Cards for all team members-->
 
                 <div class='col-md-4'>
                     <div class='team_box'>
@@ -227,9 +199,7 @@
                     <div class='team_box'>
                         <figure><img class="img-fluid rounded w-100" src='images/adam.jpg' alt='Image of Adam'></figure>
                         <div class='social_box border border-dark bg-white'>
-                            <ul class='social_team'>
-
-                            </ul>
+                            <ul class='social_team'></ul>
                             <h3 style="color: darkred; font-size: 20px"><b>Adam Luna</b></h3>
                             <p style="font-size: 18px"><b>DM</b></p>
                         </div>
@@ -253,8 +223,7 @@
                     <div class='team_box'>
                         <figure><img class="img-fluid rounded" src='images/burdy.png' alt='Image of Burdy'></figure>
                         <div class='social_box border border-dark bg-white'>
-                            <ul class='social_team'>
-                            </ul>
+                            <ul class='social_team'></ul>
                             <h3 style="color: darkred; font-size: 20px"><b>Burdy</b></h3>
                             <p style="font-size: 18px"><b>Player</b></p>
                         </div>
@@ -265,8 +234,7 @@
                     <div class='team_box'>
                         <figure><img class="img-fluid rounded" src='images/charlotte.jpg' alt='Image of Charlotte'></figure>
                         <div class='social_box border border-dark bg-white'>
-                            <ul class='social_team'>
-                            </ul>
+                            <ul class='social_team'></ul>
                             <h3 style="color: darkred; font-size: 20px"><b>Charlotte</b></h3>
                             <p style="font-size: 18px"><b>DM</b></p>
                         </div>
@@ -291,8 +259,7 @@
                     <div class='team_box'>
                         <figure><img class="img-fluid rounded" src='images/sampler.png' alt='Image of Sampler' style="width: 100%"></figure>
                         <div class='social_box border border-dark bg-white'>
-                            <ul class='social_team'>
-                            </ul>
+                            <ul class='social_team'></ul>
                             <h3 style="color: darkred; font-size: 20px"><b>Sampler</b></h3>
                             <p style="font-size: 18px"><b>Player</b></p>
                         </div>
@@ -303,8 +270,7 @@
                     <div class='team_box'>
                         <figure><img class="img-fluid rounded" src='images/tsaroc.jpg' alt='Image of Charlotte'></figure>
                         <div class='social_box border border-dark bg-white'>
-                            <ul class='social_team'>
-                            </ul>
+                            <ul class='social_team'></ul>
                             <h3 style="color: darkred; font-size: 20px"><b>Tsaroc</b></h3>
                             <p style="font-size: 18px"><b>Player</b></p>
                         </div>
@@ -313,16 +279,14 @@
 
                 <div class='col-md-4'>
                     <div class='team_box'>
-                        <figure><img class="img-fluid rounded" src='images/placeholder.jpg' alt='Image of Zarast'></figure>
+                        <figure><img class="img-fluid rounded w-100" src='images/placeholder.jpg' alt='Image of Zarast'></figure>
                         <div class='social_box border border-dark bg-white'>
-                            <ul class='social_team'>
-                            </ul>
+                            <ul class='social_team'></ul>
                             <h3 style="color: darkred; font-size: 20px"><b>Zarast</b></h3>
                             <p style="font-size: 18px"><b>Map Maker</b></p>
                         </div>
                     </div>
                 </div>
-
 
             </div>
              <p class="text-center team_p " style="color: #c39700; font-size: 18px"> <b>
@@ -385,7 +349,6 @@
                                  <span class="sr-only">Next</span>
                              </a>
                          </div>
-
              </div>
              <br><br><br>
              <div class="row titlepage justify-content-center" id="schedule">
@@ -399,12 +362,6 @@
                  </p>
                  <a href="https://docs.google.com/presentation/d/1bHS6CLg2NSHvkqAIaA7aNcD_VyycFM2s0EIi38flajA/present?slide=id.g19ed66adcf7_2_0" target="_blank"><img src="images/ScheduleClickMe.png"> </a>
                  <br>
-
-
-
-
-
-                
                  <div class="row">
                      <div class="col">
 <!--                         Brawn -->
@@ -466,25 +423,17 @@
                      document.getElementById("dm").innerHTML = dm + slash;
                  </script>
              </div>
-            
-            
-            
-            
-            
              <br><br><br>
-
              <div class="row justify-content-center">
-
                      <div class="titlepage1 text-center container-md" style="background-color: lightpink">
                          <h2 class="text-center" style="font-size: 100px"><u><b>GREENLIGHTING</b></u></h2>
-                         <p><b style="font-size: 28px">For the Marathon to be Greenlit We need 9/17 Dungeon Masters and 45/102 players<br><br>
-                             We have currently: 8/17 DMs and 6/102 Players
+                         <p><b style="font-size: 28px" id="sumary">
                          </b></p><br>
+                         <script>
+                             document.getElementById("sumary").innerHTML = sumary;
+                         </script>
                          <img class="img-fluid w-25" src="images/Yellowtraffic.png">
                      </div>
-
-
-
              </div>
              <br><br>
               <div class="row justify-content-center">
@@ -504,15 +453,6 @@
                     </div>
                  </div>
               </div>
-<!--              <div class="row justify-content-center">-->
-<!--                 <div class="col-md-6">-->
-<!--                    <div class="titlepage">-->
-<!--                       <h2>Mad Scribe</h2>-->
-<!--                       <p>A Mad Scribe is the assistant of the DM. They keep track of quests, story progressions and player inventories. They also take over the role of a Mad Mage if they're not able to attent their time slot.</p>-->
-<!--                       <button class="button-30 justify-content-center" role="button" href="#">DMs can start signing up on may 1st</button>-->
-<!--                    </div>-->
-<!--                 </div>-->
-<!--              </div>-->
              <br>
              <div class="row justify-content-center">
                  <div class="col-md-6">
@@ -537,17 +477,10 @@
          </div>
       </div>
 
-<!--        Twitter embed-->
-
-
-
-
-
-
 <!--      Frog God section-->
       <section class="home-newsletter h-25" style="background-color: #602e2e">
           <div class="container">
-                <dic class="row" style="color: #c39700; font-size: 18px">
+                <div class="row" style="color: #c39700; font-size: 18px">
                     <div class="col-md text-center">
                         <a href="https://www.froggodgames.com/"><img class="img-fluid" src="images/FrogGod.png"></a>
                         <br><br>With Support from the creators of Rappan Athuk: Frog God Games (Click Image to go to website)
@@ -556,12 +489,10 @@
                         <a href="https://www.froggodgames.com/products/16140"><img class="img-fluid h-75" src="images/book.png"></a>
                         <br>You can purchase the adventure here! By Frog God Games. (Click the image)
                     </div>
-                </dic>
+                </div>
 
-
-                      <a class="twitter-timeline" data-height="900" width="100%" data-dnt="true" href="https://twitter.com/PaladinArchives?ref_src=twsrc%5Etfw">Tweets by PaladinArchives</a> <script class="position-absolute top-0 start-50" async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
+        <!--Twitter embed-->
+                <a class="twitter-timeline" data-height="900" width="100%" data-dnt="true" href="https://twitter.com/PaladinArchives?ref_src=twsrc%5Etfw">Tweets by PaladinArchives</a> <script class="position-absolute top-0 start-50" async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
       </section>
 
@@ -570,7 +501,6 @@
          <div class="footer">
             <div class="container">
                <div class="row justify-content-center">
-
                    <div class="row">
                        <div class="col-sm-12">
                            <div class="single">
@@ -585,7 +515,6 @@
                            </div>
                        </div>
                    </div>
-
                   <div class="col-md-12">
                     <ul class="social_icon">
                         <li><a href="https://twitter.com/PaladinArchives" target="_blank"><i class="fa fa-twitter" aria-hidden="true" style="color: darkred; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000"></i></a></li>
