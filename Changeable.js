@@ -4,7 +4,7 @@ let pdf = "https://drive.google.com/file/d/1jq_3fb5-zndVfN7hzX30RZ_RT5GKqPkz/vie
 
         // Sign up numbers
 // Brawn
-let brawn = 3;
+let brawn = 2;
 
 // Scout
 let scout = 1;
@@ -16,10 +16,10 @@ let brain = 1;
 let light = 1;
 
 // Voice
-let voice = 0;
+let voice = 2;
 
 // Chaos
-let chaos = 2;
+let chaos = 3;
 
 // DM
 let dm = 4;
