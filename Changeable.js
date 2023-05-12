@@ -19,10 +19,10 @@ let light = 1;
 let voice = 0;
 
 // Chaos
-let chaos = 1;
+let chaos = 2;
 
 // DM
-let dm = 8;
+let dm = 4;
 
 // The /17
 let slash = "/17";
