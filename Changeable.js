@@ -4,25 +4,25 @@ let pdf = "https://drive.google.com/file/d/1jq_3fb5-zndVfN7hzX30RZ_RT5GKqPkz/vie
 
         // Sign up numbers
 // Brawn
-let brawn = 3;
+let brawn = 2;
 
 // Scout
-let scout = 1;
+let scout = 2;
 
 // Brain
-let brain = 1;
+let brain = 2;
 
 // Light
 let light = 1;
 
 // Voice
-let voice = 0;
+let voice = 1;
 
 // Chaos
-let chaos = 2;
+let chaos = 3;
 
 // DM
-let dm = 4;
+let dm = 5;
 
 // The /17
 let slash = "/17";
