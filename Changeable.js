@@ -16,13 +16,13 @@ let brain = 2;
 let light = 1;
 
 // Voice
-let voice = 1.5;
+let voice = 2.5;
 
 // Chaos
 let chaos = 3;
 
 // DM
-let dm = 9;
+let dm = 8;
 
 // The /17
 let slash = "/17";
@@ -41,4 +41,4 @@ let faq = "<a href=\"\n" +
 let total = brawn + scout + brain + light + voice + chaos;
 
 // Sentence with total
-let sumary = "For the Marathon to be Greenlit We need 9/17 Dungeon Masters and 45/102 players <br><br> We have currently: " + dm + "/17 DMs and " + total + "/102 Players";
+let sumary = "For the Marathon to be Greenlit We need 9/17 Dungeon Masters and 45/102 players by July 1st <br><br> We have currently: " + dm + "/17 DMs and " + total + "/102 Players";
