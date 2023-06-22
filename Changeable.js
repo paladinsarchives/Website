@@ -4,7 +4,7 @@ let pdf = "https://drive.google.com/file/d/1jq_3fb5-zndVfN7hzX30RZ_RT5GKqPkz/vie
 
         // Sign up numbers
 // Brawn
-let brawn = 3;
+let brawn = 4;
 
 // Scout
 let scout = 2.5;
