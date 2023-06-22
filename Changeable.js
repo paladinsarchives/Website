@@ -13,13 +13,13 @@ let scout = 2.5;
 let brain = 2;
 
 // Light
-let light = 0;
+let light = 0.5;
 
 // Voice
 let voice = 2.5;
 
 // Chaos
-let chaos = 3;
+let chaos = 3.5;
 
 // DM
 let dm = 9;
