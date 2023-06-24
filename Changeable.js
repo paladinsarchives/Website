@@ -10,10 +10,10 @@ let brawn = 5;
 let scout = 2.5;
 
 // Brain
-let brain = 1.5;
+let brain = 2.5;
 
 // Light
-let light = 0.5;
+let light = 1;
 
 // Voice
 let voice = 2.5;
