@@ -10,7 +10,7 @@ let brawn = 6.5;
 let scout = 3;
 
 // Brain
-let brain = 2.5;
+let brain = 3.5;
 
 // Light
 let light = 3;
