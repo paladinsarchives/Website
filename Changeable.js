@@ -22,7 +22,7 @@ let voice = 2.5;
 let chaos = 6;
 
 // DM
-let dm = 9.5;
+let dm = 8.5;
 
 // The /17
 let slash = "/17";
