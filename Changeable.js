@@ -4,22 +4,22 @@ let pdf = "https://drive.google.com/file/d/1jq_3fb5-zndVfN7hzX30RZ_RT5GKqPkz/vie
 
         // Sign up numbers
 // Brawn
-let brawn = 6.5;
+let brawn = 7;
 
 // Scout
 let scout = 4.5;
 
 // Brain
-let brain = 3.5;
+let brain = 4.5;
 
 // Light
-let light =5;
+let light =5.5;
 
 // Voice
 let voice = 3.5;
 
 // Chaos
-let chaos = 6;
+let chaos = 6.5;
 
 // DM
 let dm = 9;
