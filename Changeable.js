@@ -7,7 +7,7 @@ let pdf = "https://drive.google.com/file/d/1jq_3fb5-zndVfN7hzX30RZ_RT5GKqPkz/vie
 let brawn = 6.5;
 
 // Scout
-let scout = 3.5;
+let scout = 4.5;
 
 // Brain
 let brain = 3.5;
