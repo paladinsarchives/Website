@@ -16,7 +16,7 @@ let brain = 6;
 let light =7;
 
 // Voice
-let voice = 4;
+let voice = 5.5;
 
 // Chaos
 let chaos = 8;
