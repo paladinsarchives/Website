@@ -19,7 +19,7 @@ let light =9;
 let voice = 7.5;
 
 // Chaos
-let chaos = 9;
+let chaos = 10.5;
 
 // DM
 let dm = 10;
