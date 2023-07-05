@@ -4,7 +4,7 @@ let pdf = "https://drive.google.com/file/d/1jq_3fb5-zndVfN7hzX30RZ_RT5GKqPkz/vie
 
         // Sign up numbers
 // Brawn
-let brawn = 9.5;
+let brawn = 8.5;
 
 // Scout
 let scout = 8;
@@ -22,7 +22,7 @@ let voice = 8.5;
 let chaos = 10.5;
 
 // DM
-let dm = 10;
+let dm = 9;
 
 // The /17
 let slash = "/17";
