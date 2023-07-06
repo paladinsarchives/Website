@@ -10,7 +10,7 @@ let brawn = 10;
 let scout = 8;
 
 // Brain
-let brain = 6.5;
+let brain = 6;
 
 // Light
 let light =9;
@@ -22,7 +22,7 @@ let voice = 9;
 let chaos = 10.5;
 
 // DM
-let dm = 6;
+let dm = 7;
 
 // The /17
 let slash = "/17";
