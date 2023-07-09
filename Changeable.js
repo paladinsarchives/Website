@@ -41,4 +41,4 @@ let faq = "<a href=\"\n" +
 let total = brawn + scout + brain + light + voice + chaos;
 
 // Sentence with total
-let sumary = "We are greenlit and clear to play the marathon! Signups close on July 10th. <br><br> We have currently: " + dm + "/17 DMs and " + total + "/102 Players";
+let sumary = "We are greenlit and clear to play the marathon! Player Signups close on July 14th at 10PM. DM signups close on July 10 at 10PM <br><br> We have currently: " + dm + "/17 DMs and " + total + "/102 Players";
