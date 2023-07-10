@@ -13,7 +13,7 @@ let scout = 6.5;
 let brain = 11.5;
 
 // Light
-let light =10;
+let light =9.5;
 
 // Voice
 let voice = 9;
